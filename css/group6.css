@@ -1,0 +1,137 @@
+@charset"UTF-8";
+/*Make the shape of content*/
+html{
+  box-sizing:border-box;
+  overflow-x: hidden;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%
+}*,*:before,*:after{box-sizing:inherit}
+
+body{margin:0}
+
+html,body{
+  font-size:15px;
+  line-height:1.5
+}
+
+header{
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: white;
+	padding: 80px 50px 10px 50px;
+	background:white;
+}
+
+header,nav{
+  display:block;
+}
+
+nav{
+  position:fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+/*Navigation Part*/
+.topnav {
+  overflow: hidden;
+  background-color: whitesmoke;
+  font-family: HGSGothicM;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffd033;
+  color: black;
+  font-size: 17px;
+}
+
+/*Table of Contents Part*/
+#toc_container {
+  position: left;
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  display: table;
+  font-size: 95%;
+  margin-bottom: 1em;
+  padding: 20px;
+  width: auto;
+  margin-left: 50px;
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+  list-style: outside none none !important;
+}
+
+
+/*Fonts*/
+h1,h2,h3,h4,h5,h6,p,ul{
+  font-family: HGSGothicM
+}
+h1{
+  font-size:36px
+}
+h2{
+  font-size:30px
+}
+h3{
+  font-size:24px
+}
+h4{
+  font-size:20px
+}
+h5{
+  font-size:18px
+}
+h6{
+  font-size:16px
+}
+
+/*Hr*/
+hr{
+  height:2px;
+  border-width:0;
+  color:#FFD033;
+  background-color:#FFD033;
+}
+
+/*link*/
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color:black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
